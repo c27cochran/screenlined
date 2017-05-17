@@ -1,0 +1,17 @@
+[15-Jan-2014 01:24:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/jwjohnson89/public_html/core/connect/database.php:28
+Stack trace:
+#0 /home/jwjohnson89/public_html/core/connect/database.php(28): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home/jwjohnson89/public_html/core/init.php(3): require('/home/jwjohnson...')
+#2 /home/jwjohnson89/public_html/company-login.php(2): require('/home/jwjohnson...')
+#3 {main}
+  thrown in /home/jwjohnson89/public_html/core/connect/database.php on line 28
+[16-Jan-2014 23:56:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/jwjohnson89/public_html/core/connect/database.php:28
+Stack trace:
+#0 /home/jwjohnson89/public_html/core/connect/database.php(28): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home/jwjohnson89/public_html/core/init.php(3): require('/home/jwjohnson...')
+#2 /home/jwjohnson89/public_html/profile.php(2): include('/home/jwjohnson...')
+#3 {main}
+  thrown in /home/jwjohnson89/public_html/core/connect/database.php on line 28
+[24-Jan-2014 02:15:15 UTC] PHP Fatal error:  Call to a member function real_escape_string() on a non-object in /home/jwjohnson89/public_html/search.php on line 18
+[24-Jan-2014 02:15:17 UTC] PHP Fatal error:  Call to a member function real_escape_string() on a non-object in /home/jwjohnson89/public_html/search.php on line 18
+[24-Jan-2014 02:15:17 UTC] PHP Fatal error:  Call to a member function real_escape_string() on a non-object in /home/jwjohnson89/public_html/search.php on line 18

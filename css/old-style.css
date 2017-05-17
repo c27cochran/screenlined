@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+#profile_picture{
+	width: 239px;
+	padding: 0 30px 0 0;
+	float: left;
+}
+ 
+#profile_picture img{
+	width: 240px;
+	padding-right: 20px;
+}
+ 
+#personal_info{
+	width: 600px;
+	/*padding: 0 0 0 30px;*/
+	float: left;
+}
+
+#resume {
+	width: 600px;
+	float: left;
+}
+ 
+textarea{
+	width: 500px;
+	height: 150px;
+}
+ 
+hr{
+	margin: 12px 0;
+	height: 1px;
+	border: 1px solid #fff;
+	border-top: 1px solid #ccc;
+	background-color: #fff;
+}
+ 
+.clear{
+	clear: both;
+}
+ 
+/* Css from Part1 */
+ 
+body{
+	font: 0.9em Tahoma, Verdana, Arial;
+	line-height:172%;
+	background: #fff;
+	text-align: center;
+}
+ 
+
+#page {
+	background-color:#efefef;
+	width:700px;
+	margin:50px auto;
+	padding:20px 50px 20px 50px;
+	min-height:600px;
+	border:2px solid #fff;
+	outline:1px solid #ccc;
+	text-align:left;
+}
+
+.linked_in {
+	background-image: url('images/linked-in.png');
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 36px;
+}
+
+h1, h2 {
+	letter-spacing:-1px;
+	color:#0281A3;
+	font-weight:normal;		
+	margin-bottom:10px;
+}
+ 
+h4{
+	margin: 0;
+}
+ 
+ul{
+	padding: 0;
+}
+ 
+ul li{
+	display: inline-block;
+	padding: 15px;
+	list-style: none;
+}
+
+
+.comment,
+.commentForm{
+  
+  /* Syling the comments and the comment form container */
+  
+  padding:12px;
+  width:400px;
+  position:relative;
+  background-color:#fcfcfc;
+  border:1px solid white;
+  color:#888;
+  margin: 10px 0;
+  
+  /* CSS3 rounded corners and drop shadows */
+  
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+
+  -moz-box-shadow:2px 2px 0 #c2c2c2;
+  -webkit-box-shadow:2px 2px 0 #c2c2c2;
+  box-shadow:2px 2px 0 #c2c2c2;
+}
+
+.comment .name{
+  font-size:20px;
+  padding-bottom:10px;
+  color:#ccc;
+}
+
+.comment .date{
+  font-size:10px;
+  padding:6px 0;
+  position:absolute;
+  right:15px;
+  top:10px;
+  color:#bbb;
+}
+
+.comment p,
+.commentForm p{
+  font-size:18px;
+  line-height:1.5;
+  overflow-x:hidden;
+}
+
+.commentForm input[type=text],
+.commentForm textarea{
+
+  /* Styling the inputs */
+
+  display:block;
+  border:1px solid #ccc;
+  margin:5px 0 5px;
+  padding:3px;
+  font-size:12px;
+  color:#555;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.commentForm textarea{
+  width:300px;
+}
+
+.errors{
+  color:red;
+  position:relative;
+  right:-10px;
+}
+
+.btn-lg{
+	margin-top: 15px;
+}
+
+.btn-modal {
+	margin-bottom: 20px!important;
+}
+
+.btn-top {
+	margin-top: 15px;
+}

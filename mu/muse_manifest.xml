@@ -1,0 +1,49 @@
+<manifest alg="2" build="329" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="417434784"/>
+    <file name="master_a-master.css" crc="4272584122" ref="add-job:invite-applicants:index:sign-out:calendar:manage:messages"/>
+    <file name="add-job.css" crc="3824517309" ref="add-job"/>
+    <file name="invite-applicants.css" crc="3780260698" ref="invite-applicants"/>
+    <file name="index.css" crc="44838189" ref="index"/>
+    <file name="sign-out.css" crc="3780260698" ref="sign-out"/>
+    <file name="calendar.css" crc="3780260698" ref="calendar"/>
+    <file name="manage.css" crc="3780260698" ref="manage"/>
+    <file name="messages.css" crc="4208501187" ref="messages"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3828297711" ref="index:calendar:sign-out:add-job:messages:manage:invite-applicants"/>
+    <file name="museutils.js" crc="117816282" ref="index:calendar:sign-out:add-job:messages:manage:invite-applicants"/>
+    <file name="jquery.musemenu.js" crc="32367222" ref="index:calendar:sign-out:add-job:messages:manage:invite-applicants"/>
+    <file name="jquery.tobrowserwidth.js" crc="152985095" ref="index:calendar:sign-out:add-job:messages:manage:invite-applicants"/>
+    <file name="pie.js" crc="4147615982" ref="index:add-job:messages"/>
+    <file name="webpro.js" crc="33264525" ref="index:add-job"/>
+    <file name="musewpdisclosure.js" crc="250538392" ref="index"/>
+    <file name="jquery.watch.js" crc="4199601726" ref="index:calendar:sign-out:add-job:messages:manage:invite-applicants"/>
+    <file name="form_check.php" crc="420793330" ref="add-job"/>
+    <file name="form_throttle.php" crc="4126984013" ref="add-job"/>
+    <file name="form-u858.php" crc="3878272692" ref="add-job"/>
+  </folder>
+  <folder name="images">
+    <file name="logo.png" crc="3914779425" ref="index:calendar:sign-out:add-job:messages:manage:invite-applicants"/>
+    <file name="settings.png" crc="4105229374" ref="index:calendar:sign-out:add-job:messages:manage:invite-applicants"/>
+    <file name="u809-r-sprite.png" crc="3794329948" ref="index"/>
+    <file name="u809-m-sprite.png" crc="85531271" ref="index"/>
+    <file name="u813-r-sprite.png" crc="259293060" ref="index"/>
+    <file name="u813-m-sprite.png" crc="294702315" ref="index"/>
+    <file name="u880-13.png" crc="466908403" ref="add-job"/>
+    <file name="u880-13-r.png" crc="327243317" ref="add-job"/>
+    <file name="u880-13-m.png" crc="3892188171" ref="add-job"/>
+    <file name="u880-13-fs.png" crc="3892188171" ref="add-job"/>
+    <file name="u928-r-sprite.png" crc="4223765786" ref="add-job"/>
+    <file name="u928-m-sprite.png" crc="35159474" ref="add-job"/>
+    <file name="u940-r-sprite.png" crc="11103587" ref="add-job"/>
+    <file name="u940-m-sprite.png" crc="124599619" ref="add-job"/>
+  </folder>
+  <file name="index.html" crc="30108519" mt="1388967558271" redirect="true"/>
+  <file name="calendar.html" crc="4024632363" mt="1388967558274" redirect="true"/>
+  <file name="sign-out.html" crc="258216392" mt="1388967558275" redirect="true"/>
+  <file name="add-job.html" crc="3965007581" mt="1388967558277" redirect="true"/>
+  <file name="messages.html" crc="451625289" mt="1388967558278" redirect="true"/>
+  <file name="manage.html" crc="9941326" mt="1388967558279" redirect="true"/>
+  <file name="invite-applicants.html" crc="3928688054" mt="1388967558281" redirect="true"/>
+</manifest>
